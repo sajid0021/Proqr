@@ -7,7 +7,8 @@
     "client": "cd client && vite",
     "server": "cd server && node server.js",
     "build": "cd client && vite build",
-    "preview": "cd client && vite preview"
+    "preview": "cd client && vite preview",
+    "postinstall": "npm install --prefix client --legacy-peer-deps"
   },
   "keywords": [],
   "author": "",
